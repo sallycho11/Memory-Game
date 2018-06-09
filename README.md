@@ -14,3 +14,9 @@ This is a card matching game that gives you your score and time after completing
 * The game and timer will stop after you have found all pairs.
 * At the end, it will display your score, the time, and the amount of moves you made.
 * Enjoy!
+
+## Dependencies Used:
+* Google fonts
+* Font Awesome for icons
+* jQuery
+* easytimer.js by albert-gonzalez
