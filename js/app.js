@@ -146,6 +146,7 @@ function showResults() {
 	$('.moves').text(moves);
 	timer.pause();
 	let scoreResults = `
+		<h2>CONGRATULATIONS</h2>
 	    <p>
 	        <span class="score-titles">Moves:</span>
 	        <span class="score-values">${moves}</span>
