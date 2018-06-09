@@ -4,7 +4,7 @@
 
 let cardList = ["diamond", "diamond", "paper-plane-o", "paper-plane-o", "anchor", "anchor", "bolt", "bolt", "cube", "cube", "leaf", "leaf", "bicycle", "bicycle", "bomb", "bomb"];
 let clickedCards = [];
-let countMatches = 14;
+let countMatches = 0;
 let moves = 0;
 let gameStarted = false;
 let timer = new Timer();
@@ -110,7 +110,7 @@ function checkWin() {
 // Reset Game
 function reset() {
 	clickedCards = [];
-	countMatches = 14;
+	countMatches = 0;
 	moves = 0;
 	$('.moves').text(moves);
 	$('.deck').empty();
