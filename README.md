@@ -1,20 +1,16 @@
 # Memory Game Project
 
-## Table of Contents
+This is a card matching game that gives you your score and time after completing the game.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## How to Play:
+1. [Clone](https://github.com/sallycho11/Memory-Game.git) the Repository.
+2. Open `index.html` file to view the project in your browser.
 
-## Instructions
+## Instructions:
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+* The timer begins as you click on your first card.
+* After flipping 2 cards over, it will check if you have a matching pair.
+* If you have a matching pair, the cards will then stay flipped over.
+* The game and timer will stop after you have found all pairs.
+* At the end, it will display your score, the time, and the amount of moves you made.
+* Enjoy!
